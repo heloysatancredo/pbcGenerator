@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PBC Generator :: Project</title>
+    <link rel="stylesheet" type="text/css" href="css/generator.css">
+    <script type="text/javascript" src="js/main.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav"></div>
+    <div id="hiddenMenu">
+        <div id="menu">
+            <div id="logo">
+                <a href="index.html"><img class="logoImg" src="../img/logo_pbc.png"
+                        alt="Personal Business Card Logo / Home" height="40px"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="more.html">More</a></li>
+                    <li><a href="samples.html">Samples</a></li>
+                    <li><a href="generator.html">Generator</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="imgHidden">&#9776;</div>
+    </div>
+    <header>
+        <h2>About this Project</h2>
+    </header>
+    <div id="wrapper">
+        <main>
+            <div class="hero">
+                <h3><em>Coding and Learning!</em></h3>
+                <div id="codeImg">
+                    <img src="../img/coding.jpg" alt="Screen showing computer codes" width="100%"
+                        style="border-radius: 10px">
+                </div>
+                <h3> HTML, CSS and JavaScript</h3>
+                <p> This is the <span style="font-weight: bold"> Final Project</span> for the courses of HTML, CSS and Javascript from <span style="font-weight: bold">Term 1 </span>for my post-degree program - Web & Mobile Design and Development, Langara College. I spent 2 weeks building this website and tried to apply much of the knowledge I gained in the last 3 months. Before that, I was not able to write 1 line in JavaScript. I still have a long way to go, but I am proud of this work. Special thanks to the instructors Denis and Reza for the knowledge passed on to me. <br><br></p>
+                <p>The requirements included: </p>
+                <p><span style="font-weight: bold">HTML</span></p>
+                <ul>
+                    <li>One (1) home page and more six (6) pages</li>
+                </ul>
+                <p><span style="font-weight: bold">CSS</span></p>
+                <ul>
+                    <li>One (1) external style sheet (CSS) which contains a minimum of six (6) styles</li>
+                </ul>
+                <p><span style="font-weight: bold">JavaScript</span></p>
+                <ul>
+                    <li>Appropriately named: IDs, Variables and Functions</li>
+                    <li>EventListeners, Functions, Arrays and Objects</li>
+                    <li>Conditionals, Decision (if or switch) and Looping</li>
+                    <li>Any three (3) of the following coding challenges:<br>
+                        &nbsp;&nbsp;&nbsp;- Radio Buttons<br>
+                        &nbsp;&nbsp;&nbsp;- Check Box(es)<br>
+                        &nbsp;&nbsp;&nbsp;- Colour Picker/Setter<br>
+                        &nbsp;&nbsp;&nbsp;- Date Picker/Setter<br>
+                        &nbsp;&nbsp;&nbsp;- Input Box<br></li>
+                    <li>All code must pull the user’s selection from the user interface, process the selection
+                        accordingly, and update the user interface with an appropriate acknowledgement or response.</li>
+                </ul>
+                <p><span style="font-weight: bold">General - Each page must:</span></p>
+                <ul>
+                    <li>Contain appropriate text and images that provide information and value to the target audience
+                    </li>
+                    <li>Contain appropriate page titles</li>
+                    <li>Be designed with responsive layouts that display well on both desktop and mobile browsers</li>
+                    <li>Have a unified design across all pages (ie: headers/footers are the same, etc.)</li>
+                    <li>The usage of frameworks or libraries is not allowed.</li>
+                </ul>
+                <p><span style="font-weight: bold">**Applying JavaScript**</span></p>
+                This project contains 2 external JS files:<br><br>
+                <span style="font-weight:bold">1) main.js:</span> Included in all pages. It contains minor events and functions (mostly related to show/hide the side menu).<br><br>
+                <span style="font-weight:bold">2) generator.js:</span> Included in generator.html page. It provides
+                dynamic update of the business card as the user fills in the fields and chooses appearance selections.This file contains:<br>
+                <ul>
+                    <li>Multidimensional Array of available images to the user to choose when building his business card</li>
+                    <li>Object to keep data inputted by the user when building the business card</li>
+                    <li>Function to update the object values</li>
+                    <li>Function with 4 conditions and loopings to define which image in which color should be displayed according to user’s selection</li>
+                    <li>EventListener to update the business card data according to the information provided by the user on 5 Input Boxes (Name, Professional Occupancy, Email, LinkedIn/ Social Media, Phone Number</li>
+                    <li>EventListener to update the business card appearance according to user’s choices of background and font colors (2 Color Pickers*)</li>
+                    <li>EventListeners calling function to update the business card image according to user’s selection of type and color (Radio buttons)</li>
+                    <li>EventListener reloading the page if the user chooses to build a new business card</li>
+                    <li>EventListeners to open and close the business card Settings (when displaying in mobile size</li>
+                    <li>EventListener to validate: if any field of the business card is empty and if the number of cards requested is empty or isn’t a valid number. After validation, this event still applies Type Conversion on the number of cards requested, hide/show different buttons and show a message to the user.</li>
+                </ul>
+                <span style="font-size:80%">*If your browser doesn't support Color Picker you can input the color name or code directly.</span><br><br>
+                <div class="center">
+                    <a href="contact.html"><button class="buildNow" type="button">Want to know more?<br>Get in
+                            touch!</button></a>
+                </div><br>
+            </div>
+        </main><br>
+        <footer>
+            <nav id="navFooter">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="more.html">More</a></li>
+                    <li><a href="samples.html">Samples</a></li>
+                    <li><a href="generator.html">Generator</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            Copyright &copy; 2019 Business Card Generator<br>
+        </footer>
+    </div>
+</body>
+
+</html>

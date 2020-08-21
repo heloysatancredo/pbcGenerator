@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>PBC Generator :: Contact</title>
+	<link rel="stylesheet" type="text/css" href="css/generator.css">
+	<script type="text/javascript" src="js/main.js" defer></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div id="mySidenav" class="sidenav"></div>
+	<div id="hiddenMenu">
+		<div id="menu">
+			<div id="logo"><a href="index.html"><img class="logoImg" src="../img/logo_pbc.png"
+						alt="Personal Business Card Logo / Home" height="40px"></a></div>
+			<nav>
+				<ul>
+					<li><a href="more.html">More</a></li>
+					<li><a href="samples.html">Samples</a></li>
+					<li><a href="generator.html">Generator</a></li>
+					<li><a href="about.html">About me</a></li>
+					<li><a href="project.html">Project</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="imgHidden">&#9776;</div>
+	</div>
+	<header>
+		<h2>Get in touch!</h2>
+	</header>
+	<div id="wrapper">
+		<main>
+			<div class="hero">
+				<h3> All fields required:*</h3>
+				<form id="contactForm" onsubmit="formSubmit(event)" autocomplete="off">
+					<label>Name:</label><br>
+					<input type="text" id="nameForm" name="name" required><br>
+					<label>E-mail:</label><br>
+					<input type="text" id="emailForm" name="email" required><br>
+					<label>Message:</label><br>
+					<textarea id="messageForm" name="message" rows="7" required></textarea>
+					<div class="center">
+						<button class="buildNow" id="submit" type="submit">Send message</button>
+					</div>
+					<div id="tksMessage">
+						<div class="center">
+						</div><br>
+					</div>
+				</form><br>
+			</div>
+		</main><br>
+		<footer>
+			<nav id="navFooter">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="more.html">More</a></li>
+					<li><a href="samples.html">Samples</a></li>
+					<li><a href="generator.html">Generator</a></li>
+					<li><a href="about.html">About me</a></li>
+					<li><a href="project.html">Project</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			Copyright &copy; 2019 Business Card Generator<br>
+		</footer>
+	</div>
+</body>
+
+</html>
